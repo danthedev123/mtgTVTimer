@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.MtgTVTimer" parent="@style/Theme.Leanback" />
+</resources>
