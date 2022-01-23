@@ -18,6 +18,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity
+            android:name=".SettingActivity"
+            android:banner="@drawable/app_icon_your_company"
+            android:exported="true"
+            android:icon="@drawable/app_icon_your_company"
+            android:label="@string/title_activity_setting"
+            android:logo="@drawable/app_icon_your_company"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:banner="@drawable/app_icon_your_company"
             android:exported="true"
